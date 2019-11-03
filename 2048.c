@@ -23,7 +23,7 @@ int automove(WINDOW *win, int board[4][4], int *scor, int *winner);
 void backup_undo(int board[4][4], int *scor, int *winner, int undo[4][4], int *scor_backup, 
 	int *winner_backup, int mode);
 
-int main() {       
+int main() {
 	WINDOW *menu_win, *bkgr_win, *game_win;
 	PANEL *menu_panel, *bkgr_panel, *game_panel;
     int glow = 1; // glow pe optiunea selectata in meniu
