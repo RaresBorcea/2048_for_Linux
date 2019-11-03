@@ -43,7 +43,7 @@ int main() {
     system("resize -s 35 88"); // resizing-ul automat al ferestrei executabilului
     initscr(); // initializarea ecranului (ncurses)
 
-    start_color(); //programul suporta culorile
+    start_color(); // programul suporta culorile
     // definirea unor culori non-standard
     init_color(25, 0, 400, 0); // dark green - background
     init_color(26, 400, 0, 0); // dark red
