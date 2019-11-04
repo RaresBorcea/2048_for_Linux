@@ -103,8 +103,7 @@ int main() {
 	mvwprintw(bkgr_win, 12, 30, "/____/\\____/  /_/  \\____/  ");
     wattroff(bkgr_win, A_BOLD | COLOR_PAIR(4));
     wattron(bkgr_win, A_ITALIC); 
-    mvwprintw(bkgr_win, LINES - 3, startx - 19, "Use UP and DOWN arrows to navigate; 
-    	Press ENTER to select an option.");
+    mvwprintw(bkgr_win, LINES - 3, startx - 19, "Use UP and DOWN arrows to navigate; Press ENTER to select an option.");
     wattroff(bkgr_win, A_ITALIC);
     mvwprintw(bkgr_win, LINES - 2, startx + 4, "© 2018 Rares Borcea");
 
